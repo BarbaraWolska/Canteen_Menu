@@ -1,0 +1,13 @@
+<?php
+
+$hostname = "localhost"; 
+$user = "2024_basia26"; 
+$password = "387253";
+$dbname = "2024_basia26";
+$prefix = "CanteenMenu_"; 
+
+$link = mysqli_connect($hostname,$user,$password) or die("Nie można się połączyć z serwerem");
+mysqli_select_db($link, $dbname);
+mysqli_query($link,"SET NAMES UTF-8");
+
+?>
