@@ -2,7 +2,7 @@
 
 $hostname = "localhost"; 
 $user = "2024_basia26"; 
-$password = "387253";
+$password = "";
 $dbname = "2024_basia26";
 $prefix = "CanteenMenu_"; 
 
